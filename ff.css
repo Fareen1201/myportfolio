@@ -1,0 +1,153 @@
+#zero {
+  display: flex;
+  background-color: antiquewhite;
+  border-radius: 100px;
+}
+#zero ul {
+  display: flex;
+  margin-left: 500px;
+}
+#zero ul li {
+  padding: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+}
+#zero ul li a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+#zero img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 200px;
+  padding: 20px;
+}
+#zero h1 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#one {
+  display: flex;
+}
+#one h1 {
+  font-size: xxx-large;
+  border-top: 50px;
+}
+#one section {
+  margin-left: 10px;
+  font-size: 1cm;
+  border-radius: 20px;
+  background-color: bisque;
+  border-top: 100px;
+}
+#two {
+  display: flex;
+  background-color: silver;
+  padding: 20px;
+  height: 180px;
+  border-radius: 20px;
+}
+
+#two img {
+  height: 150px;
+  width: 150px;
+  border-radius: 25px;
+}
+
+#two section {
+  margin-left: 20px;
+  font-size: xx-large;
+  text-align: justify;
+}
+#three {
+  display: flex;
+  background-color: peachpuff;
+  padding: 30px;
+  border-radius: 20px;
+  height: 200px;
+}
+#three img {
+  margin-left: 200px;
+}
+
+#three h1 {
+  text-align: center;
+  margin-top: -30px;
+}
+#four {
+  display: flex;
+}
+#four h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+#four img {
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  border-style: groove;
+  border: 5px sloid violet;
+  border-radius: 20px;
+}
+
+#four {
+  background-color: thistle;
+  height: 200px;
+}
+#four ul li {
+  padding: 10px;
+  display: flex;
+}
+#four ul {
+  display: flex;
+  padding: 10px;
+  margin-left: 60px;
+}
+@media (max-width: 1120px) {
+  #zero {
+    flex-direction: column;
+    width: auto;
+  }
+  #zero ul {
+    flex-direction: column;
+    width: auto;
+  }
+  #zero img {
+    height: 100;
+    width: 100;
+  }
+  #two {
+    height: auto;
+    flex-direction: column;
+    background-color: lightgrey;
+  }
+  #two img {
+    height: auto;
+    width: auto;
+  }
+  #one {
+    height: auto;
+    flex-direction: column;
+  }
+  #three {
+    height: auto;
+    flex-direction: column;
+  }
+
+  #three h1 {
+    margin-left: 20px;
+    height: auto;
+    font-size: xx-large;
+    flex-direction: column;
+  }
+  #four {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  #four ul {
+    flex-direction: column;
+  }
+}
